@@ -1,0 +1,15 @@
+.container {
+    background-color: #fff;
+  
+    display: block;
+    margin: 0 auto;
+  
+    border-radius: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+  
+  .forecast-card{
+    background-color: navy;
+    color: white;
+  }

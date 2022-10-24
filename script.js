@@ -1,18 +1,6 @@
 var apiKey = '83aa77b93c0b51b2cba02c88abf311b3';
 var cities = [];
 
-// function convertToLatLong(city) {
-//     url = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + apiKey;
-//     $.ajax({
-//         url: url,
-//         method: 'GET'
-//     })
-//     .then(function(response){
-//         let lat = response[0].lat;
-//         let lon = response[0].lon;
-//     });
-//     console.log(lat, lon);
-// }
 
 function searchWeather(){
     let getWeather = $('#get-weather');
